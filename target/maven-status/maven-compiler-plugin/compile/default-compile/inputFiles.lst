@@ -1,2 +1,4 @@
-/home/eris29/APCSA/deeplearning4j-examples/nd4j-ndarray-examples/src/main/java/org/stocks/DatasetCreator.java
-/home/eris29/APCSA/deeplearning4j-examples/nd4j-ndarray-examples/src/main/java/org/stocks/objects/StockObject.java
+/home/eris29/APCSA/LSTM_test_repo/src/main/java/org/stocks/objects/StockObjectSetIterator.java
+/home/eris29/APCSA/LSTM_test_repo/src/main/java/org/stocks/DatasetCreator.java
+/home/eris29/APCSA/LSTM_test_repo/src/main/java/org/stocks/objects/PriceCategory.java
+/home/eris29/APCSA/LSTM_test_repo/src/main/java/org/stocks/objects/StockObject.java

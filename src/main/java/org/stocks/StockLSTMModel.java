@@ -7,7 +7,7 @@ import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.factory.Nd4j;
 import org.nd4j.linalg.dataset.api.preprocessor.NormalizerMinMaxScaler;
 
-public class DatasetCreator {
+public class StockLSTMModel {
     private static String ticker = "AAPL";
     private static String tickerPath = "/home/eris29/APCSA/deeplearning4j-examples/nd4j-ndarray-examples/src/main/java/org/nd4j/examples/quickstart/stock_data/" + ticker + ".csv";;
     
