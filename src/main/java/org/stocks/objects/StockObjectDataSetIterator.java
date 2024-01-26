@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.*;
 
 
-public class StockObjectSetIterator implements DataSetIterator {
+public class StockObjectDataSetIterator implements DataSetIterator {
 
     /** category and its index */
     private final Map<PriceCategory, Integer> featureMapIndex = ImmutableMap.<PriceCategory, Integer>builder()
@@ -47,7 +47,7 @@ public class StockObjectSetIterator implements DataSetIterator {
     /** adjusted stock dataset for testing */
     private List<Pair<INDArray, INDArray>> test;
 
-    public StockObjectSetIterator (String filename, String ticker, int miniBatchSize, int exampleLength, double splitRatio, PriceCategory category) {
+    public StockObjectDataSetIterator (String filename, String ticker, int miniBatchSize, int exampleLength, double splitRatio, PriceCategory category) {
         List<StockObject> StockObjectList = readStockObjectFromFile(filename, ticker);
         this.miniBatchSize = miniBatchSize;
         this.exampleLength = exampleLength;
