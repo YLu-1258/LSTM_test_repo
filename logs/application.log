@@ -1,0 +1,258 @@
+2024-01-26 08:53:57,623 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-01-26 08:54:03,441 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2024-01-26 08:54:03,442 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-01-26 08:54:03,453 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2024-01-26 08:54:03,461 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-01-26 08:54:03,461 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [12]; Memory: [1.9GB];
+
+2024-01-26 08:54:03,461 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-01-26 08:54:03,463 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-01-26 08:54:03,662 - [INFO] - from org.nd4j.examples.advanced.lowlevelmodeling.MultiClassLogitExample in main
+                
+Training the model...
+
+2024-01-26 08:54:14,900 - [INFO] - from org.nd4j.examples.advanced.lowlevelmodeling.MultiClassLogitExample in main
+                
+Took 11238 ms
+
+2024-01-26 08:54:14,900 - [INFO] - from org.nd4j.examples.advanced.lowlevelmodeling.MultiClassLogitExample in main
+                
+Testing the model...
+
+2024-01-26 08:54:14,911 - [INFO] - from org.nd4j.examples.advanced.lowlevelmodeling.MultiClassLogitExample in main
+                
+Correct samples: 30/30
+
+2024-01-26 08:54:14,912 - [INFO] - from org.nd4j.examples.advanced.lowlevelmodeling.MultiClassLogitExample in main
+                
+Accuracy: 1.0
+
+2024-01-26 08:54:14,941 - [INFO] - from org.nd4j.examples.advanced.memoryoptimization.WorkspacesExample in main
+                
+Array attached? true
+
+2024-01-26 08:54:14,948 - [INFO] - from org.nd4j.examples.advanced.memoryoptimization.WorkspacesExample in main
+                
+Array attached? false
+
+2024-01-26 08:54:14,957 - [INFO] - from org.nd4j.examples.advanced.memoryoptimization.WorkspacesExample in main
+                
+Sum: 100.0
+
+2024-01-26 08:54:14,963 - [INFO] - from org.nd4j.examples.advanced.memoryoptimization.WorkspacesExample in main
+                
+Sum: 300.0
+
+2024-01-26 08:54:23,205 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-01-26 08:54:23,889 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2024-01-26 08:54:23,891 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-01-26 08:54:23,901 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2024-01-26 08:54:23,913 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-01-26 08:54:23,914 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [12]; Memory: [1.9GB];
+
+2024-01-26 08:54:23,914 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-01-26 08:54:23,918 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-01-26 08:58:04,940 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-01-26 08:58:05,368 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2024-01-26 08:58:05,370 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-01-26 08:58:05,375 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2024-01-26 08:58:05,384 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-01-26 08:58:05,385 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [12]; Memory: [1.9GB];
+
+2024-01-26 08:58:05,386 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-01-26 08:58:05,391 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-01-26 08:58:22,336 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-01-26 08:58:22,646 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2024-01-26 08:58:22,646 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-01-26 08:58:22,650 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2024-01-26 08:58:22,654 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-01-26 08:58:22,655 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [12]; Memory: [1.9GB];
+
+2024-01-26 08:58:22,655 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-01-26 08:58:22,659 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-01-26 09:00:09,161 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-01-26 09:00:09,467 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2024-01-26 09:00:09,467 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-01-26 09:00:09,470 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2024-01-26 09:00:09,473 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-01-26 09:00:09,473 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [12]; Memory: [1.9GB];
+
+2024-01-26 09:00:09,473 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-01-26 09:00:09,476 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-01-26 09:02:00,364 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-01-26 09:02:00,670 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2024-01-26 09:02:00,671 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-01-26 09:02:00,674 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2024-01-26 09:02:00,675 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-01-26 09:02:00,676 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [12]; Memory: [1.9GB];
+
+2024-01-26 09:02:00,676 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-01-26 09:02:00,677 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
