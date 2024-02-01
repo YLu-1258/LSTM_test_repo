@@ -6,7 +6,7 @@ import org.deeplearning4j.nn.conf.MultiLayerConfiguration;
 import org.deeplearning4j.nn.conf.NeuralNetConfiguration;
 import org.deeplearning4j.nn.conf.Updater;
 import org.deeplearning4j.nn.conf.layers.DenseLayer;
-import org.deeplearning4j.nn.conf.layers.GravesLSTM;
+import org.deeplearning4j.nn.conf.layers.LSTM;
 import org.deeplearning4j.nn.conf.layers.RnnOutputLayer;
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.deeplearning4j.nn.weights.WeightInit;
@@ -20,9 +20,7 @@ import org.nd4j.linalg.lossfunctions.LossFunctions;
  */
 public class LSTMNetModel {
 	
-	private static final double learningRate = 0.05;
-	private static final int iterations = 1;
-	private static final int seed = 12345;
+    private static final int seed = 12345;
 
     private static final int lstmLayer1Size = 256;
     private static final int lstmLayer2Size = 256;
@@ -33,22 +31,18 @@ public class LSTMNetModel {
     public static MultiLayerNetwork buildLstmNetworks(int nIn, int nOut) {
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
                 .seed(seed)
-                .iterations(iterations)
-                .learningRate(learningRate)
                 .optimizationAlgo(OptimizationAlgorithm.STOCHASTIC_GRADIENT_DESCENT)
                 .weightInit(WeightInit.XAVIER)
-                .updater(Updater.RMSPROP)
-                .regularization(true)
                 .l2(1e-4)
                 .list()
-                .layer(0, new GravesLSTM.Builder()
+                .layer(0, new LSTM.Builder()
                         .nIn(nIn)
                         .nOut(lstmLayer1Size)
                         .activation(Activation.TANH)
                         .gateActivationFunction(Activation.HARDSIGMOID)
                         .dropOut(dropoutRatio)
                         .build())
-                .layer(1, new GravesLSTM.Builder()
+                .layer(1, new LSTM.Builder()
                         .nIn(lstmLayer1Size)
                         .nOut(lstmLayer2Size)
                         .activation(Activation.TANH)
@@ -69,8 +63,6 @@ public class LSTMNetModel {
                 .backpropType(BackpropType.TruncatedBPTT)
                 .tBPTTForwardLength(truncatedBPTTLength)
                 .tBPTTBackwardLength(truncatedBPTTLength)
-                .pretrain(false)
-                .backprop(true)
                 .build();
 
         MultiLayerNetwork net = new MultiLayerNetwork(conf);

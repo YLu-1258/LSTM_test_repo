@@ -82,7 +82,11 @@ information regarding copyright ownership.
             <artifactId>deeplearning4j-utility-iterators</artifactId>
             <version>${dl4j-master.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-core</artifactId>
+            <version>${dl4j-master.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.deeplearning4j</groupId>
             <artifactId>resources</artifactId>
@@ -92,6 +96,11 @@ information regarding copyright ownership.
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.30</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>1.5.3</version>
         </dependency>
         <dependency>
             <groupId>com.opencsv</groupId>
