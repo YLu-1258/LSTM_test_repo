@@ -7,10 +7,12 @@ import org.datavec.api.records.reader.impl.csv.CSVRecordReader;
 import org.datavec.api.split.FileSplit;
 import org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
-import org.nd4j.common.io.ClassPathResource;
+import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.nd4j.linalg.dataset.DataSet;
 
 import java.io.File;
+
+import org.stocks.model.LSTMNetModel;
 
 public class StockLSTMModel {
 
@@ -41,11 +43,16 @@ public class StockLSTMModel {
             recordReader.initialize(new FileSplit(new File(file)));
 
             DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader, batchSize, labelIndex, labelIndex, true);
+
+            MultiLayerNetwork net = LSTMNetModel.buildLstmNetworks(iterator.inputColumns(), iterator.totalOutcomes());
             DataSet set = iterator.next();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
        
+        // Start training
+        
+
 
         // Define iterator
         
