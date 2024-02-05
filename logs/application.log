@@ -13805,3 +13805,1280 @@ Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [
                 
 Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
 
+2024-02-05 08:47:01,395 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-02-05 08:47:02,038 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2024-02-05 08:47:02,039 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-02-05 08:47:02,044 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2024-02-05 08:47:02,049 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-02-05 08:47:02,049 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [12]; Memory: [1.9GB];
+
+2024-02-05 08:47:02,049 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-02-05 08:47:02,053 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-02-05 08:47:02,207 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2024-02-05 08:47:02,285 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,304 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,324 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,339 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,351 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,360 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,374 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,387 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,393 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,402 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,413 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,418 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,429 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,439 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,449 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,452 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,461 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,466 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,470 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,480 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,483 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,486 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,493 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,498 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,504 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,507 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,517 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,525 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,533 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,538 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,541 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,544 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,549 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,552 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,559 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,568 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,571 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,574 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,577 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,582 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,588 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,593 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,597 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,604 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,609 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,614 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,618 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,626 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,631 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,638 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,641 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,647 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,654 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,658 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,665 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,669 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,671 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,675 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,681 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,685 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,688 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,691 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,698 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,705 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,711 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,718 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,725 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,728 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,731 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,737 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,742 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,746 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,750 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,752 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,758 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,765 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,771 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,776 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,780 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,785 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,791 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,796 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,800 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,805 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,808 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,812 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,842 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,885 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,888 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,889 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,892 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,895 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,900 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,905 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,911 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,915 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,929 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,933 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,936 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,946 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,950 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,956 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,959 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,966 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,973 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,978 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,983 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,988 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,992 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:02,997 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,001 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,005 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,008 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,011 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,015 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,020 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,024 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,028 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,034 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,038 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,042 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,047 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,050 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,053 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,055 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,057 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,059 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,060 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,064 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,071 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,075 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,079 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,083 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,088 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,092 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,096 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,100 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,104 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,108 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,113 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,117 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,120 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,125 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,128 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,133 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,136 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,140 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,142 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,146 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,150 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,153 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,156 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,159 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,164 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,168 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,172 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,176 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,178 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [17, 6]	and labels with shape [17, 1]
+
+2024-02-05 08:47:03,184 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,188 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,191 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,195 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,199 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,203 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,207 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,211 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,215 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,219 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,223 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,226 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,243 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,252 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,255 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,257 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,260 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,263 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,268 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,271 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,274 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,277 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,280 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,283 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,288 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,291 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,294 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,297 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,302 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,305 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,306 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,308 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,310 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,314 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,318 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,319 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,321 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,323 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,326 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,330 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,334 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,337 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,341 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,344 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,348 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,353 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,356 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,360 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,362 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,366 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,368 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,371 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,374 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,376 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,381 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,385 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,388 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,392 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,394 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,396 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,398 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,400 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,402 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,403 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,405 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,408 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,409 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,410 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,412 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,415 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,418 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,423 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,425 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,431 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,432 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,434 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,437 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,439 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,442 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,444 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,449 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,451 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,453 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,456 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,458 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,460 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,465 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,467 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,470 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,472 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,475 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,477 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,479 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,482 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,485 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,487 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,490 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,492 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,495 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,499 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,502 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,504 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,508 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,510 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,513 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,516 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,529 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,534 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,536 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,538 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,541 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,542 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,545 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,547 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,549 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,550 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,552 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,553 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,555 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,558 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,560 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,563 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,567 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,569 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,571 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,575 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,577 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,580 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,582 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,586 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,588 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,590 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,593 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,598 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,601 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,604 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,605 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,606 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,609 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,610 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,641 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,644 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,647 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,661 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,663 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,666 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,667 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,670 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,673 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,674 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
+2024-02-05 08:47:03,676 - [WARN] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Cannot do truncated BPTT with non-3d inputs or labels. Expect input with shape [miniBatchSize,nIn,timeSeriesLength], got [27, 6]	and labels with shape [27, 1]
+
