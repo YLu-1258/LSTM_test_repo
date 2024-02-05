@@ -10,8 +10,7 @@ import lombok.ToString;
 @ToString
 @Data
 public class StockObject {
-    private String date;
-    private String ticker;
+    private double date;
     private double open;
     private double high;
     private double low;

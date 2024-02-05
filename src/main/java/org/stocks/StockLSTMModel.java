@@ -9,6 +9,7 @@ import org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.nd4j.linalg.dataset.DataSet;
+import org.nd4j.linalg.dataset.SplitTestAndTrain;
 
 import java.io.File;
 
@@ -24,7 +25,7 @@ public class StockLSTMModel {
         String directory = "/home/eris29/APCSA/LSTM_test_repo/src/main/java/org/stocks/stock_data";
         String ticker = "AAPL"; // stock name
         String file = directory + "/" + ticker + "_cleaned.csv";
-        double splitRatio = 0.9; // 90% for training, 10% for testing
+        double splitRatio = 0.85; // 90% for training, 10% for testing
         int epochs = 100; // training epochs
 
         // Number of input features
@@ -44,8 +45,21 @@ public class StockLSTMModel {
 
             DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader, batchSize, labelIndex, labelIndex, true);
 
+            System.out.println("nIn: " + iterator.inputColumns() + " nOut: " + iterator.totalOutcomes());
             MultiLayerNetwork net = LSTMNetModel.buildLstmNetworks(iterator.inputColumns(), iterator.totalOutcomes());
-            DataSet set = iterator.next();
+            for (int i = 0; i < epochs; i++) {
+                System.out.println("Epoch: " + i+1);
+                while (iterator.hasNext()) {
+                    DataSet set = iterator.next();
+                    SplitTestAndTrain testAndTrain = set.splitTestAndTrain(splitRatio);
+                    DataSet train = testAndTrain.getTrain();
+                    DataSet test = testAndTrain.getTest();
+                    System.out.println(train);
+                    net.fit(train);
+                } // fit model using mini-batch data
+                iterator.reset(); // reset iterator
+                net.rnnClearPreviousState();
+            }
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
