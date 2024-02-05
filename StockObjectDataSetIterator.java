@@ -20,14 +20,14 @@ import lombok.ToString;
 @Data
 public class StockObjectDataSetIterator {
 
-    private String file;
+    private static String file;
     private double splitRatio;
     private int batchSize;
     private int labelIndex;
     private DataSetIterator iterator;
 
     public StockObjectDataSetIterator(String directory, String ticker, double splitRatio, int batchSize) {
-        this.file = directory + "/" + "ticker" + "_test.csv";
+        file = directory + "/" + "ticker" + "_test.csv";
         this.splitRatio = splitRatio;
         this.batchSize = batchSize;
         this.labelIndex = 4;
@@ -39,7 +39,10 @@ public class StockObjectDataSetIterator {
         int labels = 1;
         int batchSize = 32;
         int stepCount = 1;
-        // TODO: Create CSV file reader, read data into the 3D array, Create INDARRAYS, Create Dataset from each feature and levels, Then create datasetiterator        
+        // TODO: Create CSV file reader, read data into the 3D array, Create INDARRAYS, Create Dataset from each feature and levels, Then create datasetiterator   
+        BufferedReader br = new BufferedReader(new FileReader(file));    
+        line = br.readLine();
+        System.out.println(line);   
         for (int i = 0; i < 140; i ++) {
             double[][][] featureMatrix = new double[stepCount][features][batchSize];
             double[][][] labelsMatrix = new double[stepCount][labels][batchSize];
