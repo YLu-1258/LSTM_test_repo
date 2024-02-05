@@ -27,19 +27,29 @@ public class StockObjectDataSetIterator {
     private DataSetIterator iterator;
 
     public StockObjectDataSetIterator(String directory, String ticker, double splitRatio, int batchSize) {
-        this.file = directory + "/" + "ticker" + ".csv";
+        this.file = directory + "/" + "ticker" + "_test.csv";
         this.splitRatio = splitRatio;
         this.batchSize = batchSize;
         this.labelIndex = 4;
         this.iterator = this.extractDataFromCSV();
     }
 
-    private DataSetIterator extractDataFromCSV() {
-        int numLinesToSkip = 1;
-        char delimiter = ',';
-        RecordReader recordReader = new CSVRecordReader(numLinesToSkip, delimiter);
-        recordReader.initialize(new FileSplit(new File(file)));
-        DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader, this.batchSize, this.labelIndex, 1);
-        return iterator;
+    public static void main() {
+        int features = 4;
+        int labels = 1;
+        int batchSize = 32;
+        int stepCount = 1;
+        // TODO: Create CSV file reader, read data into the 3D array, Create INDARRAYS, Create Dataset from each feature and levels, Then create datasetiterator        
+        for (int i = 0; i < 140; i ++) {
+            double[][][] featureMatrix = new double[stepCount][features][batchSize];
+            double[][][] labelsMatrix = new double[stepCount][labels][batchSize];
+            for (int batch = 0; batch < batchSize; batch++) {
+                featureMatrix[0][0][batch] = 0;// Get CSV data
+                featureMatrix[0][1][batch] = 0;//Get CSV data
+                featureMatrix[0][2][batch] = 0;// GeT CSV ata
+                featureMatrix[0][3][batch] = 0; 
+                labelsMatrix[0][0][batch] = 0;
+            }
+        }
     }
 } 

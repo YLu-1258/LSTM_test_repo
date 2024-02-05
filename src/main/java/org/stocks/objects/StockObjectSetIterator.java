@@ -45,13 +45,14 @@ public class StockObjectSetIterator implements DataSetIterator {
 
     public StockObjectSetIterator (String filename, String symbol, int miniBatchSize, int exampleLength, double splitRatio, PriceCategory category) {
         List<StockObject> StockObjectList = readStockObjectFromFile(filename);
+        StockObjectList.get(0).getClose();
         this.miniBatchSize = miniBatchSize;
         this.exampleLength = exampleLength;
         this.category = category;
-        int split = (int) Math.round(StockObjectList.size() * splitRatio);
-        train = StockObjectList.subList(0, split);
-        test = generateTestDataSet(StockObjectList.subList(split, StockObjectList.size()));
-        initializeOffsets();
+        // int split = (int) Math.round(StockObjectList.size() * splitRatio);
+        // train = StockObjectList.subList(0, split);
+        // test = generateTestDataSet(StockObjectList.subList(split, StockObjectList.size()));
+        // initializeOffsets();
     }
 
     /** initialize the mini-batch offsets */

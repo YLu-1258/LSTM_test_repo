@@ -14,6 +14,8 @@ import org.nd4j.linalg.dataset.SplitTestAndTrain;
 import java.io.File;
 
 import org.stocks.model.LSTMNetModel;
+import org.stocks.objects.StockObject;
+import org.stocks.objects.StockObjectSetIterator;
 
 public class StockLSTMModel {
 
@@ -44,6 +46,7 @@ public class StockLSTMModel {
             recordReader.initialize(new FileSplit(new File(file)));
 
             DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader, batchSize, labelIndex, labelIndex, true);
+            StockObjectSetIterator iterator1 = new StockObjectSetIterator(file, "AAPL", batchSize, 1, 0.85, null);
 
             System.out.println("nIn: " + iterator.inputColumns() + " nOut: " + iterator.totalOutcomes());
             MultiLayerNetwork net = LSTMNetModel.buildLstmNetworks(iterator.inputColumns(), iterator.totalOutcomes());
@@ -51,11 +54,15 @@ public class StockLSTMModel {
                 System.out.println("Epoch: " + i+1);
                 while (iterator.hasNext()) {
                     DataSet set = iterator.next();
+                    System.out.println("Features:" + set.getFeatures());
+                    set.getFeatures();
+                    System.out.println("Labels: " + set.getLabels().getClass());
+                    set.getLabels();
                     SplitTestAndTrain testAndTrain = set.splitTestAndTrain(splitRatio);
                     DataSet train = testAndTrain.getTrain();
                     DataSet test = testAndTrain.getTest();
                     System.out.println(train);
-                    net.fit(train);
+                    //net.fit(train);
                 } // fit model using mini-batch data
                 iterator.reset(); // reset iterator
                 net.rnnClearPreviousState();
