@@ -44,14 +44,14 @@ public class StockObjectDataSetIterator {
         line = br.readLine();
         System.out.println(line);   
         for (int i = 0; i < 140; i ++) {
-            double[][][] featureMatrix = new double[stepCount][features][batchSize];
-            double[][][] labelsMatrix = new double[stepCount][labels][batchSize];
+            double[][][] featureMatrix = new double[batchSize][stepCount][features];
+            double[][][] labelsMatrix = new double[batchSize][stepCount][labels];
             for (int batch = 0; batch < batchSize; batch++) {
-                featureMatrix[0][0][batch] = 0;// Get CSV data
-                featureMatrix[0][1][batch] = 0;//Get CSV data
-                featureMatrix[0][2][batch] = 0;// GeT CSV ata
-                featureMatrix[0][3][batch] = 0; 
-                labelsMatrix[0][0][batch] = 0;
+                featureMatrix[batch][0][0] = 0;// Get CSV data
+                featureMatrix[batch][0][1] = 0;//Get CSV data
+                featureMatrix[batch][0][2] = 0;// GeT CSV ata
+                featureMatrix[batch][0][3] = 0; 
+                labelsMatrix[batch][0][0] = 0;
             }
         }
     }
