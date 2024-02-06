@@ -8,8 +8,6 @@ import org.nd4j.linalg.dataset.DataSet;
 import org.nd4j.linalg.dataset.api.DataSetPreProcessor;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.nd4j.linalg.factory.Nd4j;
-import org.stocks.objects.StockObject;
-import org.stocks.objects.PriceCategory;
 
 import java.io.FileReader;
 import java.io.IOException;

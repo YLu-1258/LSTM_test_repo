@@ -15,6 +15,7 @@ import java.io.File;
 
 import org.stocks.model.LSTMNetModel;
 import org.stocks.objects.StockObject;
+import org.stocks.objects.StockObjectDataSetIterator;
 import org.stocks.objects.StockObjectSetIterator;
 
 public class StockLSTMModel {
@@ -40,36 +41,33 @@ public class StockLSTMModel {
         int batchSize = 32; // Set according to your needs
 
         System.out.println("Create dataSet iterator...");
-        int numLinesToSkip = 2;
-        char delimiter = ',';
-        try (RecordReader recordReader = new CSVRecordReader(numLinesToSkip, delimiter)) {
-            recordReader.initialize(new FileSplit(new File(file)));
+   
+        StockObjectDataSetIterator iterator1 = new StockObjectDataSetIterator(directory, "AAPL", 5, 1, 32, 1);
+            
 
-            DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader, batchSize, labelIndex, labelIndex, true);
-            StockObjectSetIterator iterator1 = new StockObjectSetIterator(file, "AAPL", batchSize, 1, 0.85, null);
-
-            System.out.println("nIn: " + iterator.inputColumns() + " nOut: " + iterator.totalOutcomes());
-            MultiLayerNetwork net = LSTMNetModel.buildLstmNetworks(iterator.inputColumns(), iterator.totalOutcomes());
-            for (int i = 0; i < epochs; i++) {
-                System.out.println("Epoch: " + i+1);
-                while (iterator.hasNext()) {
-                    DataSet set = iterator.next();
-                    System.out.println("Features:" + set.getFeatures());
-                    set.getFeatures();
-                    System.out.println("Labels: " + set.getLabels().getClass());
-                    set.getLabels();
-                    SplitTestAndTrain testAndTrain = set.splitTestAndTrain(splitRatio);
-                    DataSet train = testAndTrain.getTrain();
-                    DataSet test = testAndTrain.getTest();
-                    System.out.println(train);
-                    //net.fit(train);
-                } // fit model using mini-batch data
-                iterator.reset(); // reset iterator
-                net.rnnClearPreviousState();
-            }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // System.out.println("nIn: " + iterator.inputColumns() + " nOut: " + iterator.totalOutcomes());
+        MultiLayerNetwork net = LSTMNetModel.buildLstmNetworks(iterator1.getFeatures(), iterator1.getLabels());
+        iterator1.createDataset(net);
+        //     for (int i = 0; i < epochs; i++) {
+        //         System.out.println("Epoch: " + i+1);
+        //         while (iterator1.iterator.hasNext()) {
+        //             DataSet set = iterator1.next();
+        //             System.out.println("Features:" + set.getFeatures());
+        //             set.getFeatures();
+        //             System.out.println("Labels: " + set.getLabels().getClass());
+        //             set.getLabels();
+        //             SplitTestAndTrain testAndTrain = set.splitTestAndTrain(splitRatio);
+        //             DataSet train = testAndTrain.getTrain();
+        //             DataSet test = testAndTrain.getTest();
+        //             System.out.println(train);
+        //             net.fit(train);
+        //         } // fit model using mini-batch data
+        //         iterator.reset(); // reset iterator
+        //         net.rnnClearPreviousState();
+        //     }
+        // } catch (InterruptedException e) {
+        //     e.printStackTrace();
+        // }
        
         // Start training
         
