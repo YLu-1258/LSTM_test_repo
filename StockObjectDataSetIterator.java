@@ -1,14 +1,11 @@
 package org.stocks.objects;
 
-import java.io.File;
+import java.io.BufferedReader;
+import java.io.FileReader;
 
-
-import org.datavec.api.records.reader.RecordReader;
-import org.datavec.api.records.reader.impl.csv.CSVRecordReader;
-import org.datavec.api.split.FileSplit;
-import org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
-
+import org.nd4j.linalg.api.INDArray;
+import org.nd4j.linalg.factory.Nd4j;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,7 +24,7 @@ public class StockObjectDataSetIterator {
     private DataSetIterator iterator;
 
     public StockObjectDataSetIterator(String directory, String ticker, double splitRatio, int batchSize) {
-        file = directory + "/" + "ticker" + "_test.csv";
+        file = directory + "/" + ticker + "_test.csv";
         this.splitRatio = splitRatio;
         this.batchSize = batchSize;
         this.labelIndex = 4;
@@ -35,24 +32,42 @@ public class StockObjectDataSetIterator {
     }
 
     public static void main() {
-        int features = 4;
+        int features = 5;
         int labels = 1;
         int batchSize = 32;
         int stepCount = 1;
         // TODO: Create CSV file reader, read data into the 3D array, Create INDARRAYS, Create Dataset from each feature and levels, Then create datasetiterator   
-        BufferedReader br = new BufferedReader(new FileReader(file));    
-        line = br.readLine();
-        System.out.println(line);   
-        for (int i = 0; i < 140; i ++) {
-            double[][][] featureMatrix = new double[batchSize][stepCount][features];
-            double[][][] labelsMatrix = new double[batchSize][stepCount][labels];
-            for (int batch = 0; batch < batchSize; batch++) {
-                featureMatrix[batch][0][0] = 0;// Get CSV data
-                featureMatrix[batch][0][1] = 0;//Get CSV data
-                featureMatrix[batch][0][2] = 0;// GeT CSV ata
-                featureMatrix[batch][0][3] = 0; 
-                labelsMatrix[batch][0][0] = 0;
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            String line;
+            boolean firstLine = true;
+            if (firstLine) {
+                firstLine = false;
+                line = br.readLine();
+                continue;
             }
-        }
+            for (int i = 0; i < 140; i ++) {
+                double[][][] featureMatrix = new double[batchSize][stepCount][features];
+                double[][][] labelsMatrix = new double[batchSize][stepCount][labels];
+                for (int batch = 0; batch < batchSize; batch++) {
+                    if ((line = br.readline()) != null) {
+                        String[] values = line.split(",");
+                        featureMatrix[batch][0][0] = Double.parseDouble(values[0]); // DATE
+                        featureMatrix[batch][0][1] = Double.parseDouble(values[1]); // OPEN
+                        featureMatrix[batch][0][2] = Double.parseDouble(values[2]); // HIGH
+                        featureMatrix[batch][0][3] = Double.parseDouble(values[4]); // LOW
+                        featureMatrix[batch][0][4] = Double.parseDouble(values[5]); // VOLUME
+                        labelsMatrix[batch][0][0] = Double.parseDouble(values[3]); // CLOSE
+                    }
+                    INDArray featuresArray = Nd4j.create(featureMatrix);
+                    INDArray labelsArray = Nd4j.create(labelsMatrix);
+                    Dataset dataset = new DataSet(featuresArray, labelsArray);
+                    // create INDArray
+                    // create DataSet
+                }
+                // Add to DatasetIterator
+            }
+            
+        }    
+        
     }
 } 
