@@ -43,7 +43,6 @@ public class StockObjectDataSetIterator {
 
     public void createDataset(MultiLayerNetwork net) {
         int stepCount = 1;
-        // TODO: Create CSV file reader, read data into the 3D array, Create INDARRAYS, Create Dataset from each feature and levels, Then create datasetiterator   
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line;
             line = br.readLine();
@@ -63,7 +62,7 @@ public class StockObjectDataSetIterator {
                     INDArray featuresArray = Nd4j.create(featureMatrix);
                     INDArray labelsArray = Nd4j.create(labelsMatrix);
                     DataSet dataset = new DataSet(featuresArray, labelsArray);
-                    System.out.println(dataset);
+                    // System.out.println(dataset);
                     net.fit(dataset);
                     // create INDArray
                     // create DataSet
@@ -75,6 +74,10 @@ public class StockObjectDataSetIterator {
             }
             File locationToSave = new File("src/main/resources/StockPriceLSTM_".concat("CLOSE").concat(".zip"));
             ModelSerializer.writeModel(net, locationToSave, true);
+
+            net = ModelSerializer.restoreMultiLayerNetwork(locationToSave);
+            
+            
             
         } catch (IOException e) {
             e.printStackTrace();
