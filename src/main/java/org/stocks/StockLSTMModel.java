@@ -46,7 +46,10 @@ public class StockLSTMModel {
             
         // System.out.println("nIn: " + iterator.inputColumns() + " nOut: " + iterator.totalOutcomes());
         MultiLayerNetwork net = LSTMNetModel.buildLstmNetworks(iterator1.getFeatures(), iterator1.getLabels());
-        iterator1.createDataset(net);
+        System.out.println("\n\n\nTraining Model\n\n\n");
+        iterator1.TrainModel(net);
+        System.out.println("\n\n\nTesting Model\n\n\n");
+        iterator1.TestModel(net);
 
         
         
