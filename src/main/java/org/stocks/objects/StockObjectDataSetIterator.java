@@ -122,47 +122,47 @@ public class StockObjectDataSetIterator {
         }
     }
 
-    // public void TrainAndTestModel(MultiLayerNetwork net) {
-    //     try (BufferedReader br = new BufferedReader(new FileReader(file))) {
-    //         String line;
-    //         line = br.readLine();
-    //         for (int i = 0; i < 120; i ++) {
-    //             double[][][] featureMatrix = new double[batchSize][this.features][this.stepCount];
-    //             double[][][] labelsMatrix = new double[batchSize][this.labels][this.stepCount];
-    //             for (int batch = 0; batch < this.batchSize; batch++) {
-    //                 line = br.readLine();
-    //                 String[] values = line.split(",");
-    //                 featureMatrix[batch][0][0] = Double.parseDouble(values[0]); // DATE
-    //                 featureMatrix[batch][1][0] = Double.parseDouble(values[1]); // OPEN
-    //                 featureMatrix[batch][2][0] = Double.parseDouble(values[2]); // HIGH
-    //                 featureMatrix[batch][3][0] = Double.parseDouble(values[4]); // LOW
-    //                 featureMatrix[batch][4][0] = Double.parseDouble(values[5]); // VOLUME
-    //                 labelsMatrix[batch][0][0] = Double.parseDouble(values[3]); // CLOSE
-    //             }
-    //             INDArray featuresArray = Nd4j.create(featureMatrix);
-    //             INDArray labelsArray = Nd4j.create(labelsMatrix);
-    //             // System.out.println(labelsArray);
-    //             DataSet train = new DataSet(featuresArray, labelsArray);
-    //             // System.out.println("Training");
-    //             net.fit(train);
-    //             net.rnnClearPreviousState();
-    //             // file locationToSave = new File("src/main/resources/StockPriceLSTM_".concat(String.valueOf(category)).concat(".zip"));
-    //             // ModelSerializer.writeModel(net, locationToSave, true);
-    //             DataSet test = new DataSet(featuresArray, labelsArray);
-    //             INDArray output = net.output(test.getFeatures(), false);
-    //             System.out.println("Output: ");
-    //             System.out.println(output);
-    //             System.out.println("Actual: ");
-    //             // System.out.println(test.getFeatures());
-    //             System.out.println(test.getLabels());
-    //             roc.evalTimeSeries(test.getLabels(), output);
-    //         }
-    //         System.out.println("FINAL TEST AUC: " + roc.calculateAUC());
-    //         File locationToSave = new File("src/main/resources/StockPriceLSTM_".concat("CLOSE").concat(".zip"));
-    //         ModelSerializer.writeModel(net, locationToSave, true);
-    //         net = ModelSerializer.restoreMultiLayerNetwork(locationToSave);
-    //     } catch (IOException e) {
-    //         e.printStackTrace();
-    //     }
-    // }
+    public void TrainAndTestModel(MultiLayerNetwork net) {
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            String line;
+            line = br.readLine();
+            for (int i = 0; i < 120; i ++) {
+                double[][][] featureMatrix = new double[batchSize][this.features][this.stepCount];
+                double[][][] labelsMatrix = new double[batchSize][this.labels][this.stepCount];
+                for (int batch = 0; batch < this.batchSize; batch++) {
+                    line = br.readLine();
+                    String[] values = line.split(",");
+                    featureMatrix[batch][0][0] = Double.parseDouble(values[0]); // DATE
+                    featureMatrix[batch][1][0] = Double.parseDouble(values[1]); // OPEN
+                    featureMatrix[batch][2][0] = Double.parseDouble(values[2]); // HIGH
+                    featureMatrix[batch][3][0] = Double.parseDouble(values[4]); // LOW
+                    featureMatrix[batch][4][0] = Double.parseDouble(values[5]); // VOLUME
+                    labelsMatrix[batch][0][0] = Double.parseDouble(values[3]); // CLOSE
+                }
+                INDArray featuresArray = Nd4j.create(featureMatrix);
+                INDArray labelsArray = Nd4j.create(labelsMatrix);
+                // System.out.println(labelsArray);
+                DataSet train = new DataSet(featuresArray, labelsArray);
+                // System.out.println("Training");
+                net.fit(train);
+                net.rnnClearPreviousState();
+                // file locationToSave = new File("src/main/resources/StockPriceLSTM_".concat(String.valueOf(category)).concat(".zip"));
+                // ModelSerializer.writeModel(net, locationToSave, true);
+                DataSet test = new DataSet(featuresArray, labelsArray);
+                INDArray output = net.output(test.getFeatures(), false);
+                System.out.println("Output: ");
+                System.out.println(output);
+                System.out.println("Actual: ");
+                // System.out.println(test.getFeatures());
+                System.out.println(test.getLabels());
+                roc.evalTimeSeries(test.getLabels(), output);
+            }
+            System.out.println("FINAL TEST AUC: " + roc.calculateAUC());
+            File locationToSave = new File("src/main/resources/StockPriceLSTM_".concat("CLOSE").concat(".zip"));
+            ModelSerializer.writeModel(net, locationToSave, true);
+            net = ModelSerializer.restoreMultiLayerNetwork(locationToSave);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
