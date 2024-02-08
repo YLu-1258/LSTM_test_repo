@@ -65,11 +65,11 @@ public class StockObjectDataSetIterator {
                 }
                 INDArray featuresArray = Nd4j.create(featureMatrix);
                 INDArray labelsArray = Nd4j.create(labelsMatrix);
+                // System.out.println(labelsArray);
                 DataSet train = new DataSet(featuresArray, labelsArray);
-                System.out.println("Training");
+                // System.out.println("Training");
                 net.fit(train);
                 net.rnnClearPreviousState();
-                // Add to DatasetIterator
                 // file locationToSave = new File("src/main/resources/StockPriceLSTM_".concat(String.valueOf(category)).concat(".zip"));
                 // ModelSerializer.writeModel(net, locationToSave, true);
             }
@@ -100,16 +100,17 @@ public class StockObjectDataSetIterator {
                 }
                 INDArray featuresArray = Nd4j.create(featureMatrix);
                 INDArray labelsArray = Nd4j.create(labelsMatrix);
-                System.out.println(Arrays.deepToString(featureMatrix));
-                System.out.println(Arrays.deepToString(labelsMatrix)+"\n\n\n\n\n\n");
+                // System.out.println(Arrays.deepToString(featureMatrix));
+                // System.out.println(Arrays.deepToString(labelsMatrix)+"\n\n\n\n\n\n");
                 // System.out.println("Features:" + featuresArray);
                 // System.out.println("Labels:" + labelsArray);
                 DataSet test = new DataSet(featuresArray, labelsArray);
                 INDArray output = net.output(test.getFeatures(), false);
-                // System.out.println("Output: ");
-                // System.out.println(output);
-                // System.out.println("Actual: ");
-                // System.out.println(test.getLabels());
+                System.out.println("Output: ");
+                System.out.println(output);
+                System.out.println("Actual: ");
+                System.out.println(test.getFeatures());
+                System.out.println(test.getLabels());
                 roc.evalTimeSeries(test.getLabels(), output);
             }
             System.out.println("FINAL TEST AUC: " + roc.calculateAUC());

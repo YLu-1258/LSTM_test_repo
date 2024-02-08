@@ -25,9 +25,9 @@ public class StockLSTMModel {
     private static int exampleLength = 22; // time series length, assume 22 working days per month
 
     public static void main (String[] args) throws IOException {
-        String directory = "/home/eris29/APCSA/LSTM_test_repo/src/main/java/org/stocks/stock_data";
+        String directory = "/home/davidv/vscode/LSTM_test_repo/src/main/java/org/stocks/stock_data";
         String ticker = "AAPL"; // stock name
-        String file = directory + "/" + ticker + "_cleaned.csv";
+        String file = directory + "/" + ticker + "_test.csv";
         double splitRatio = 0.85; // 90% for training, 10% for testing
         int epochs = 100; // training epochs
 
