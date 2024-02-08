@@ -62,7 +62,6 @@ public class StockObjectDataSetIterator {
                     featureMatrix[batch][3][0] = Double.parseDouble(values[4]); // LOW
                     featureMatrix[batch][4][0] = Double.parseDouble(values[5]); // VOLUME
                     labelsMatrix[batch][0][0] = Double.parseDouble(values[3]); // CLOSE
-                    
                 }
                 INDArray featuresArray = Nd4j.create(featureMatrix);
                 INDArray labelsArray = Nd4j.create(labelsMatrix);
