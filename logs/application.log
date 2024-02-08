@@ -31615,3 +31615,428 @@ Score at iteration 0 is 0.2696585759134092
                 
 Score at iteration 100 is 90.61717688009897
 
+2024-02-07 22:29:02,851 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-02-07 22:29:03,788 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2024-02-07 22:29:03,790 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-02-07 22:29:03,800 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2024-02-07 22:29:03,813 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-02-07 22:29:03,813 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [2.4GB];
+
+2024-02-07 22:29:03,814 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-02-07 22:29:03,818 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-02-07 22:29:03,919 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2024-02-07 22:29:23,899 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-02-07 22:29:25,249 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2024-02-07 22:29:25,250 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-02-07 22:29:25,256 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2024-02-07 22:29:25,262 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-02-07 22:29:25,262 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [2.4GB];
+
+2024-02-07 22:29:25,262 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-02-07 22:29:25,268 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-02-07 22:29:25,355 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2024-02-07 22:29:36,646 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-02-07 22:29:38,275 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2024-02-07 22:29:38,277 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-02-07 22:29:38,288 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2024-02-07 22:29:38,297 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-02-07 22:29:38,298 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [2.4GB];
+
+2024-02-07 22:29:38,298 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-02-07 22:29:38,308 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-02-07 22:29:38,467 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2024-02-07 22:29:39,024 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.26965761118081727
+
+2024-02-07 22:29:45,201 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 90.61719890700411
+
+2024-02-07 22:39:54,307 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-02-07 22:39:55,396 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2024-02-07 22:39:55,397 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-02-07 22:39:55,403 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2024-02-07 22:39:55,409 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-02-07 22:39:55,409 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [2.4GB];
+
+2024-02-07 22:39:55,409 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-02-07 22:39:55,414 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-02-07 22:39:55,499 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2024-02-07 22:39:55,864 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.26965761118081727
+
+2024-02-07 22:40:00,942 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 90.61719890700411
+
+2024-02-07 22:40:33,747 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-02-07 22:40:34,554 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2024-02-07 22:40:34,555 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-02-07 22:40:34,564 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2024-02-07 22:40:34,571 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-02-07 22:40:34,571 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [2.4GB];
+
+2024-02-07 22:40:34,571 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-02-07 22:40:34,577 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-02-07 22:40:34,644 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2024-02-07 22:40:35,120 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.26965761118081727
+
+2024-02-07 22:40:40,739 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 90.61719890700411
+
+2024-02-07 23:11:59,316 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-02-07 23:12:00,717 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2024-02-07 23:12:00,720 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-02-07 23:12:00,729 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2024-02-07 23:12:00,741 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-02-07 23:12:00,742 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [2.4GB];
+
+2024-02-07 23:12:00,743 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-02-07 23:12:00,752 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-02-07 23:12:00,840 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2024-02-07 23:12:01,280 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.26965761118081727
+
+2024-02-07 23:12:06,694 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 90.61719890700411
+
+2024-02-07 23:34:02,455 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-02-07 23:34:04,560 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2024-02-07 23:34:04,562 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-02-07 23:34:04,573 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2024-02-07 23:34:04,588 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-02-07 23:34:04,588 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [2.4GB];
+
+2024-02-07 23:34:04,588 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-02-07 23:34:04,605 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-02-07 23:34:04,779 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2024-02-07 23:34:05,166 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.26965761118081727
+
+2024-02-07 23:34:10,951 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 90.61719890700411
+
+2024-02-07 23:34:38,160 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-02-07 23:34:39,757 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2024-02-07 23:34:39,759 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-02-07 23:34:39,770 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2024-02-07 23:34:39,775 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-02-07 23:34:39,775 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [2.4GB];
+
+2024-02-07 23:34:39,775 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-02-07 23:34:39,780 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-02-07 23:34:39,853 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2024-02-07 23:34:40,277 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.26965761118081727
+
+2024-02-07 23:34:46,437 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 90.61719890700411
+
+2024-02-07 23:35:16,262 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2024-02-07 23:35:17,975 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 2
+
+2024-02-07 23:35:17,978 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuNDArrayFactory in main
+                
+Binary level Generic x86 optimization level AVX/AVX2
+
+2024-02-07 23:35:17,996 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 2
+
+2024-02-07 23:35:18,016 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Linux]
+
+2024-02-07 23:35:18,017 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [4]; Memory: [2.4GB];
+
+2024-02-07 23:35:18,018 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2024-02-07 23:35:18,063 - [INFO] - from org.nd4j.linalg.cpu.nativecpu.CpuBackend in main
+                
+Backend build information:
+ GCC: "7.5.0"
+STD version: 201103L
+DEFAULT_ENGINE: samediff::ENGINE_CPU
+HAVE_FLATBUFFERS
+HAVE_OPENBLAS
+
+2024-02-07 23:35:18,212 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2024-02-07 23:35:19,017 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.26965761118081727
+
+2024-02-07 23:35:26,909 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 90.61719890700411
+

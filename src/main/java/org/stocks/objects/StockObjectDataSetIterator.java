@@ -82,10 +82,10 @@ public class StockObjectDataSetIterator {
         
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String line = br.readLine();
-            for (int i = 0; i < 120*32; i++) {
-                line = br.readLine();
-            }
-            for (int i = 0; i < 20; i++) {
+            // for (int i = 0; i < 120*32; i++) {
+            //     line = br.readLine();
+            // }
+            for (int i = 0; i < 120; i++) {
                 double[][][] featureMatrix = new double[batchSize][this.features][stepCount];
                 double[][][] labelsMatrix = new double[batchSize][this.labels][stepCount];
                 for (int batch = 0; batch < this.batchSize; batch++) {
@@ -109,7 +109,7 @@ public class StockObjectDataSetIterator {
                 System.out.println("Output: ");
                 System.out.println(output);
                 System.out.println("Actual: ");
-                System.out.println(test.getFeatures());
+                // System.out.println(test.getFeatures());
                 System.out.println(test.getLabels());
                 roc.evalTimeSeries(test.getLabels(), output);
             }
