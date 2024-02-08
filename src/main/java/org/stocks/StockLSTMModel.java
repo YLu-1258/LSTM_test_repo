@@ -9,10 +9,14 @@ import org.deeplearning4j.datasets.datavec.RecordReaderDataSetIterator;
 import org.nd4j.linalg.dataset.api.iterator.DataSetIterator;
 import org.deeplearning4j.nn.multilayer.MultiLayerNetwork;
 import org.nd4j.linalg.dataset.DataSet;
+import org.nd4j.linalg.dataset.SplitTestAndTrain;
 
 import java.io.File;
 
 import org.stocks.model.LSTMNetModel;
+import org.stocks.objects.StockObject;
+import org.stocks.objects.StockObjectDataSetIterator;
+import org.stocks.objects.StockObjectSetIterator;
 
 public class StockLSTMModel {
 
@@ -21,10 +25,10 @@ public class StockLSTMModel {
     private static int exampleLength = 22; // time series length, assume 22 working days per month
 
     public static void main (String[] args) throws IOException {
-        String directory = "/home/eris29/APCSA/LSTM_test_repo/src/main/java/org/stocks/stock_data";
+        String directory = "/home/david/vscode/test_LSTM/src/main/java/org/stocks/stock_data";
         String ticker = "AAPL"; // stock name
-        String file = directory + "/" + ticker + "_cleaned.csv";
-        double splitRatio = 0.9; // 90% for training, 10% for testing
+        String file = directory + "/" + ticker + "_test.csv";
+        double splitRatio = 0.85; // 90% for training, 10% for testing
         int epochs = 100; // training epochs
 
         // Number of input features
@@ -37,24 +41,18 @@ public class StockLSTMModel {
         int batchSize = 32; // Set according to your needs
 
         System.out.println("Create dataSet iterator...");
-        int numLinesToSkip = 2;
-        char delimiter = ',';
-        try (RecordReader recordReader = new CSVRecordReader(numLinesToSkip, delimiter)) {
-            recordReader.initialize(new FileSplit(new File(file)));
+   
+        StockObjectDataSetIterator iterator1 = new StockObjectDataSetIterator(directory, "AAPL", 5, 1, 32, 1);
+            
+        // System.out.println("nIn: " + iterator.inputColumns() + " nOut: " + iterator.totalOutcomes());
+        MultiLayerNetwork net = LSTMNetModel.buildLstmNetworks(iterator1.getFeatures(), iterator1.getLabels());
+        // System.out.println("\n\n\nTraining Model\n\n\n");
+        // iterator1.TrainModel(net);
+        // System.out.println("\n\n\nTesting Model\n\n\n");
+        // iterator1.TestModel(net);
 
-            DataSetIterator iterator = new RecordReaderDataSetIterator(recordReader, batchSize, labelIndex, labelIndex, true);
+        iterator1.TrainAndTestModel(net);
 
-            MultiLayerNetwork net = LSTMNetModel.buildLstmNetworks(iterator.inputColumns(), iterator.totalOutcomes());
-            DataSet set = iterator.next();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-       
-        // Start training
-        
-
-
-        // Define iterator
         
         
     }

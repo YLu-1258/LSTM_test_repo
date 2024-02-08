@@ -25,7 +25,7 @@ public class LSTMNetModel {
     private static final int lstmLayer2Size = 256;
     private static final int denseLayerSize = 32;
     private static final double dropoutRatio = 0.2;
-    private static final int truncatedBPTTLength = 22;
+    private static final int truncatedBPTTLength = 27;
 
     public static MultiLayerNetwork buildLstmNetworks(int nIn, int nOut) {
         MultiLayerConfiguration conf = new NeuralNetConfiguration.Builder()
