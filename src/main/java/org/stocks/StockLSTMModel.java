@@ -51,6 +51,8 @@ public class StockLSTMModel {
         System.out.println("\n\n\nTesting Model\n\n\n");
         iterator1.TestModel(net);
 
+        // iterator1.TrainAndTestModel(net);
+
         
         
     }
